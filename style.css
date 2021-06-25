@@ -315,9 +315,15 @@ footer {
 
 footer img {
   height: 50px;
+  margin-right: 2rem;
 }
 
 @media (max-width: 768px) {
+
+  body {
+    padding: 3rem 1.25rem;
+  }
+
   header ul {
     display: none;
   }
@@ -371,5 +377,9 @@ footer img {
 
   #contact div {
     flex-direction: column;
+  }
+
+  footer p {
+    font-size: 13px;
   }
 }
