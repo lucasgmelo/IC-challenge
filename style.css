@@ -253,6 +253,11 @@ li:hover {
   height: 25px;
 }
 
+#contact h1 {
+  color: #ee69ac;
+  font-size: 40px;
+}
+
 #contact h3 {
   color: #ee69ac;
   font-size: 24px;
