@@ -71,7 +71,7 @@ main {
   height: 100%;
   background-color: var(--bg-dark);
   border-radius: 5px;
-  padding: 1rem 2rem 2rem;
+  padding: 1rem 3rem 2rem;
   position: relative;
   min-height: 90vh;
 }
@@ -137,45 +137,6 @@ li:hover {
     color:#ee69ac;
 }
 
-@keyframes rotate {
-    to { 
-        transform: rotateZ(360deg);
-    }
-}
-
-.animation {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    animation: rotate 4s linear;
-    animation-iteration-count: infinite;
-    padding: 0;
-    margin: 0;
-}
-
-.animation div {
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
-    background: var(--gradient);
-    position: relative;
-    animation: rotate .7s linear;
-    animation-iteration-count: infinite;
-    /* animation-direction: alternate-reverse; */
-}
-
-.animation div::after {
-    content: '';
-    height: 95px;
-    width: 95px;
-    border-radius: 50%;
-    background: var(--bg-dark);
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
-
-.animation div:first-child {
-    animation-delay: .3s;
-    margin-right: 25px;
+.banner-img {
+  width: 90%;
 }
