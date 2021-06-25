@@ -249,10 +249,6 @@ li:hover {
   margin-bottom: 3.5rem;
 }
 
-#contact img {
-  height: 25px;
-}
-
 #contact h1 {
   color: #ee69ac;
   font-size: 40px;
@@ -282,23 +278,24 @@ li:hover {
   padding: 1.5rem;
 }
 
-#contact div section a {
-  display: flex;
-  align-items: center;
-}
-
-#contact div section a p {
-  margin-left: 5px;
-}
-
-#contact div section a:hover {
-  transition: 0.3s;
+#contact button {
+  background: var(--gradient);
+  border: none;
+  height: 31px;
+  min-width: 125px;
+  border-radius: 5px;
+  padding: 0 1rem;
   transform: translateY(0px);
-  animation: up 0.3s forwards;
 }
 
-#contact div section a p:hover {
-  color: #ee69ac;
+#contact button:hover {
+  animation: up 0.3s forwards;
+  opacity: 0.95;
+}
+
+#contact button a p {
+  color: var(--bg-dark);
+  font-weight: 600;
 }
 
 footer {
